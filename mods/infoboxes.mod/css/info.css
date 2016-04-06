@@ -1,0 +1,182 @@
+@CHARSET "UTF-8";
+
+.container {
+	text-align:center;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	height:200px;
+	width:500px;
+	font-family: arial, sans-serif;
+	line-height: 150%;
+	display: inline-block ;
+	z-index:0;
+}
+
+#before {
+	display:block;
+}
+
+#after {
+	display:none;
+}
+
+
+#info_login:hover #before {
+	display:none;
+}
+
+#info_login:hover #after {
+	display:block;
+} 
+
+
+#info_logout:hover #before {
+	display:none;
+}
+
+#info_logout:hover #after {
+	display:block;
+}
+
+#info_helpme:hover #before {
+	display:none;
+}
+
+#info_helpme:hover #after {
+	display:block;
+}
+
+#info_info:hover #before {
+	display:none;
+}
+
+#info_info:hover #after {
+	display:block;
+}
+
+
+#info_login {
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	color:grey;
+	background-color:lightgreen;
+	width:150px;
+	height:50px;
+    overflow: hidden;
+	z-index:2;
+	-webkit-transition: 1s; /* For Safari 3.1 to 6.0 */
+	transition: 1s;
+	opacity:0.5;
+
+}
+#info_login span {
+	font-weight: bold;
+}
+#info_login span::after {
+	content: ": ";
+}
+
+#info_login:hover{
+	width:450px;
+	height:150px;
+	position:fixed;
+	z-index:1;
+	opacity:1;
+}
+
+
+
+
+
+#info_logout {
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	color:grey;
+	background-color:#F78181;
+	width:150px;
+	height:50px;
+    overflow: hidden;
+	z-index:2;
+	-webkit-transition: 1s; /* For Safari 3.1 to 6.0 */
+	transition: 1s;
+	opacity:0.5;
+}
+#info_logout span {
+	font-weight: bold;
+}
+#info_logout span::after {
+	content: ": ";
+}
+
+#info_logout:hover{
+	width:450px;
+	height:150px;
+	position:fixed;
+	z-index:1;
+	opacity:1;
+}
+
+
+#info_helpme {
+	position:fixed;
+	bottom:0px;
+	left:150px;
+	color:grey;
+	background-color:lightblue;
+	width:150px;
+	height:50px;
+    overflow: hidden;
+	z-index:2;
+	-webkit-transition: 1s; /* For Safari 3.1 to 6.0 */
+	transition: 1s;
+	opacity:0.5;
+}
+#info_helpme span {
+	font-weight: bold;
+}
+#info_helpme span::after {
+	
+}
+
+#info_helpme:hover{
+	left:0px;
+	width:450px;
+	height:150px;
+	position:fixed;
+	z-index:1;
+	opacity:1;
+}
+
+
+#info_info {
+	position:fixed;
+	bottom:0px;
+	left:300px;
+	color:grey;
+	background-color:lightgray;
+	width:150px;
+	height:50px;
+    overflow: hidden;
+	z-index:2;
+	-webkit-transition: 1s; /* For Safari 3.1 to 6.0 */
+	transition: 1s;
+	opacity:0.5;
+}
+#info_info span {
+	font-weight: bold;
+}
+#info_info span::after {
+	
+}
+
+#info_info:hover{
+	left:0px;
+	width:450px;
+	height:150px;
+	position:fixed;
+	z-index:1;
+	opacity:1;
+}

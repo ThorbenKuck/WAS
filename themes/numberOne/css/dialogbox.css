@@ -1,0 +1,79 @@
+@CHARSET "UTF-8";
+
+#dialogbox_container {
+	resize: both;
+	position: fixed;
+	z-index: 999;
+	left: calc(50% - 300px);
+	top: calc(50% - 300px);
+	border-radius: 5px 5px 0px 0px;
+	resize: both;
+	overlow: hidden;
+	opacity: 1;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#dialogbox_inner:hover #dialogbox_container {
+	opacity: 0.6;
+	filter: alpha(opacity = 60);
+}
+
+div .resizable {
+	resize: both;
+	overlow: auto;
+}
+
+#top_draggable {
+	z-index:5;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	background: rgba(0, 86, 111, 1);
+	cursor: pointer;
+	min-height: 20px;
+	max-height: 30px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	border-radius: 5px 5px 0px 0px;
+}
+
+#top_draggable:hover {
+	background: rgba(0, 100, 124, 1);
+}
+
+#dialog_content {
+	overflow:auto;
+}
+
+#dialogbox_inner {
+	z-index:5;
+	resize: both;
+	overlow: auto;
+	z-index: 11;
+	color: black;
+	cursor: default;
+	height: 95%;
+	width: 100%;
+	background: lightblue;
+	overflow:auto;
+}
+
+#close_dialog {
+	line-height:10px;
+	vertical-align: middle;
+	width:20px;
+	color: rgba(255, 0, 0, 0.9);
+}
+
+#close_dialog:hover {
+	color: rgba(255, 0, 0, 0.6);
+}
+
+#close_dialog > #top_draggable {
+	margin:0px auto;
+}
