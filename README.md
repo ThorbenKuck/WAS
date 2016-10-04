@@ -301,4 +301,4 @@ unclear, i am sorry. This is one of my first github-projects and english is only
 problems along the line
 
 ## License
-gpl-3.0
+MIT License
