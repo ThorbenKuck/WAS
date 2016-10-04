@@ -285,7 +285,7 @@ for an example. I will, sometime in the future provide an example theme with exp
 ##Contributors
 
 If you want to dive into the project, just check out the WIKI for coding-standards. If there is anything
-unclear, i am sorry. This is one of my first github-projects.
+unclear, i am sorry. This is one of my first github-projects and english is only my second language.
 
 ##TODO
 
