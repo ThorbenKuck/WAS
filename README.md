@@ -2,6 +2,7 @@
 ##*What is the WAS*
 WAS stands for WebApplicationSystem und is a framework designed to strictly separate multiple things.
 It is split up into 4 levels:
+
 1. socket-level.
 
     * The socket-level contains one socket which acts like the "BIOS" of this system. It coordinates the other
@@ -63,6 +64,7 @@ From this you can already take, how they depend on each other. The "packages" ar
 are able to use all "packages" and the "theme" can use all "packages" and "mods".
 
 For the packages and mods there are 2 hooks (requirements) for the socket (in this example).
+
 1. The config.json.
 
     The config  contains some information's. For example, wheter or not the mod / package is active, or if it
@@ -95,6 +97,7 @@ simultaneously, but only one can be active. This can be changed via the settings
 
 The current algorithm is trying to include 4 parts. The theme-config, the header, the body and the navigation.
 Don't panic! This is not complicated. It basically looks for 4 files inside the active-theme-folder:
+
 1. config.php
 2. header.php
 3. index.php (as the body ... didn't i already say, that i am bad with word?)
@@ -167,7 +170,7 @@ The monitor-automation-project ca be found here: [wasVPM](https://github.com/Tho
 being developed.
 
 I want the WAS to become an community based framework, that you can lean towards for gigantic and/or very complicated
-projects, while still having all control over it, what how it does and how it does that. Just like an operating system.
+projects, while still having all control over it, what it does and how it does that. Just like an operating system.
 
 ##Why should i use the WAS?
 This system is designed to strictly split up dependency's. It can be a powerful tool for creating complicated
