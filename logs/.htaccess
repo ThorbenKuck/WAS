@@ -1,0 +1,9 @@
+#Um Nutzer den Zugang zu den Logs direkt über die Webfläche zu gewähren,
+#müsse diese in .htpasswd eingepflegt werden
+#Standard bei Auslieferung ist:
+#user=Test ; pw=test
+#Es ist empfehlenswert diesen direkt zu löschen!
+AuthUserFile /var/.htpasswd
+AuthName "Password required to read the logs"
+AuthType Basic
+Require valid-user

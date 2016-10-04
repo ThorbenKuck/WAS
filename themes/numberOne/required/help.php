@@ -1,2 +1,0 @@
-Die Hilfe befindet sich noch in der Entwicklung!<br><br>
-Bitte gedulden sie sich noch ein wenig.
