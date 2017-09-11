@@ -64,11 +64,13 @@ function eoe () {
 	});
 }
 
-require dirname(__FILE__) . '/main.functions.php';
-require dirname(__FILE__) . '/main.debug.functions.php';
-require dirname(__FILE__) . '/main.settings.functions.php';
-require dirname(__FILE__) . '/main.mods.functions.php';
-require dirname(__FILE__) . '/main.todo.functions.php';
-require dirname(__FILE__) . '/main.interact.functions.php';
-require dirname(__FILE__) . '/main.packages.functions.php';
-require dirname(__FILE__) . '/main.pseudo.functions.php';
+$root = dirname(__FILE__);
+
+require $root . '/main.functions.php';
+require $root . '/main.debug.functions.php';
+require $root . '/main.settings.functions.php';
+require $root . '/main.mods.functions.php';
+require $root . '/main.todo.functions.php';
+require $root . '/main.interact.functions.php';
+require $root . '/main.packages.functions.php';
+require $root. '/main.pseudo.functions.php';

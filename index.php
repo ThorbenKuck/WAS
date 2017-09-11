@@ -38,12 +38,10 @@ Main\set_new_info("haha", "I hate you");
 // Bla|30.09.2016|00:00|30.09.2016|08:57|2
 ?>
 
+<!--<button-->
+<!--	style="width: 100px; height: 100px; background-color: black; color: white;"-->
+<!--	onclick="notifyMe('Das ist ein Test', 'blabla')">Klick mich!</button>-->
 
-<!--
-<button
-	style="width: 100px; height: 100px; background-color: black; color: white;"
-	onclick="notifyMe('Das ist ein Test', 'blabla')">Klick mich!</button>
- -->
 
 <script>
     var first_path;
