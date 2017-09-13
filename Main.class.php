@@ -12,7 +12,7 @@ class Main {
 		if(file_exists(dirname(__FILE__) . '/socket/'.self::$socketName.'/index.php')) {
 			require_once dirname(__FILE__) . '/socket/'.self::$socketName.'/index.php';
 			if(! function_exists('Main\main')) {
-				die("Der Socket konnte nicht geladen werden! Stellen sie sicher, dass ein Socket vorhanden ist!");
+				System::hardClose("Der Socket konnte nicht geladen werden! Stellen sie sicher, dass ein Socket vorhanden ist!");
 			} else {
 				Main\main();
 			}
@@ -27,7 +27,7 @@ class Main {
 		if(file_exists(dirname(__FILE__) . '/socket/'.self::$socketName.'/index.php')) {
 			require_once dirname(__FILE__) . '/socket/'.self::$socketName.'/index.php';
 			if(! function_exists('Main\main')) {
-				die("Der Socket konnte nicht geladen werden! Stellen sie sicher, dass ein Socket vorhanden ist!");
+				System::hardClose("Der Socket konnte nicht geladen werden! Stellen sie sicher, dass ein Socket vorhanden ist!");
 			} else {
 				\Main\load_all_packages();
 			}
